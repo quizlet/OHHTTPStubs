@@ -1,10 +1,12 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#endif
 
 #import "Compatibility.h"
 #import "OHHTTPStubs.h"
 #import "OHHTTPStubsResponse.h"
 #import "OHHTTPStubsResponse+JSON.h"
-#import "NSMutableURLRequest+HTTPBodyTesting.h"
+#import "NSURLRequest+HTTPBodyTesting.h"
 #import "OHPathHelpers.h"
 #import "Compatibility.h"
 
