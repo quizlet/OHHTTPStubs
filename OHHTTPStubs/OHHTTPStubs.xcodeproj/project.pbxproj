@@ -833,6 +833,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 09110A3819805F4800D175E4;
@@ -1319,7 +1320,7 @@
 				MODULEMAP_FILE = "$(SRCROOT)/Supporting Files/module.modulemap";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -1359,7 +1360,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "$(SRCROOT)/Supporting Files/module.modulemap";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1632,7 +1633,7 @@
 				MODULEMAP_FILE = "$(SRCROOT)/Supporting Files/module.modulemap";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Test;
